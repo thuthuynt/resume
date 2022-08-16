@@ -7,8 +7,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Wix.com Website Builder">
-
   <link rel="icon" sizes="192x192" href="https://github.githubassets.com/favicons/favicon-dark.svg">
   <link rel="shortcut icon" href="https://github.githubassets.com/favicons/favicon-dark.svg" type="image/x-icon">
   <link rel="apple-touch-icon" href="https://github.githubassets.com/favicons/favicon-dark.svg" type="image/x-icon">
@@ -17,31 +15,6 @@
   <script nomodule="" src="./Thuy_CV_2_files/focus-within-polyfill.js.download"></script>
   <script nomodule="" src="./Thuy_CV_2_files/polyfill.min.js.download"></script>
 
-  <!-- Performance API Polyfills -->
-  <script>
-    (function () {
-      var noop = function noop() { };
-      if ("performance" in window === false) {
-        window.performance = {};
-      }
-      window.performance.mark = performance.mark || noop;
-      window.performance.measure = performance.measure || noop;
-      if ("now" in window.performance === false) {
-        var nowOffset = Date.now();
-        if (performance.timing && performance.timing.navigationStart) {
-          nowOffset = performance.timing.navigationStart;
-        }
-        window.performance.now = function now() {
-          return Date.now() - nowOffset;
-        };
-      }
-    })();
-  </script>
-
-
-  <script
-    data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/createPlatformWorker.inline.c3466bce.bundle.min.js">(self.webpackJsonp__wix_thunderbolt_app = self.webpackJsonp__wix_thunderbolt_app || []).push([[5457], { 47770: function (e, r, t) { "use strict"; t.r(r), t.d(r, { platformWorkerPromise: function () { return i } }); const { siteAssets: { clientTopology: s }, siteFeatures: o, siteFeaturesConfigs: { platform: a }, site: { externalBaseUrl: p } } = window.viewerModel, c = Worker && o.includes("platform"), i = c ? (async () => { const e = "platform_create-worker started"; performance.mark(e); const r = a.clientWorkerUrl, t = r.startsWith("http://localhost:4200/") || r.startsWith("https://bo.wix.com/suricate/") || document.baseURI !== location.href ? (e => { const r = new Blob([`importScripts('${e}');`], { type: "application/javascript" }); return URL.createObjectURL(r) })(a.clientWorkerUrl) : r.replace(s.fileRepoUrl, `${p}/_partials`), o = new Worker(t), c = Object.keys(a.appsScripts.urls).filter((e => { var r; return !(null === (r = a.bootstrapData.appsSpecData[e]) || void 0 === r ? void 0 : r.isModuleFederated) })).reduce(((e, r) => (e[r] = a.appsScripts.urls[r], e)), {}); o.postMessage({ type: "platformScriptsToPreload", appScriptsUrls: c }); const i = "platform_create-worker ended"; return performance.mark(i), performance.measure("Create Platform Web Worker", e, i), o })() : Promise.resolve() } }, function (e) { "use strict"; var r; r = 47770, e(e.s = r) }]);
-//# sourceMappingURL=https://static.parastorage.com/services/wix-thunderbolt/dist/createPlatformWorker.inline.c3466bce.bundle.min.js.map</script>
   <script
     data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/windowMessageRegister.inline.8c9e8df6.bundle.min.js">(self.webpackJsonp__wix_thunderbolt_app = self.webpackJsonp__wix_thunderbolt_app || []).push([[9439], { 64277: function () { "use strict"; !function (n) { const e = new Set, t = [], a = n => { const t = []; e.forEach((e => { n.canHandleEvent(e) && t.push(e) })), t.forEach((t => { e.delete(t), n.handleEvent(t) })) }; n.addEventListener("message", (n => { const s = { source: n.source, data: n.data, origin: n.origin }, d = t.find((n => n.canHandleEvent(s))); d ? (a(d), d.handleEvent(s)) : e.add(s) })), n._addWindowMessageHandler = n => { t.push(n), a(n) } }(window) } }, function (n) { "use strict"; var e; e = 64277, n(n.s = e) }]);
 //# sourceMappingURL=https://static.parastorage.com/services/wix-thunderbolt/dist/windowMessageRegister.inline.8c9e8df6.bundle.min.js.map</script>
@@ -56,21 +29,13 @@
 
   <!-- preloading post-scripts -->
 
-
-
   <link rel="preload" crossorigin="anonymous" as="fetch"
     href="https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=specs.thunderbolt.responsiveAbsoluteChildrenPosition%3Atrue%2Cspecs.thunderbolt.containersList%3Atrue%2Cspecs.thunderbolt.DatePickerPortal%3Atrue%2Cspecs.thunderbolt.SearchBoxSuggestionsFacelift%3Atrue%2Cspecs.thunderbolt.loadHighQualityImagesAboveFold%3Atrue%2Cspecs.thunderbolt.loadFirstNFonts%3A3%2Cspecs.thunderbolt.maskImageCSS%3Atrue%2Cspecs.thunderbolt.chat_landing_page%3Atrue&amp;contentType=application%2Fjson&amp;deviceType=Desktop&amp;dfCk=6&amp;dfVersion=1.1581.0&amp;excludedSafariOrIOS=false&amp;experiments=bv_remove_add_chat_viewer_fixer%2Cdm_fixStylableButtonProperties%2Cdm_fixVectorImageProperties%2Cdm_migrateToTextTheme&amp;externalBaseUrl=https%3A%2F%2Fthuthuynt540.wixsite.com%2Fmyresume&amp;fileId=917c7ad2.bundle.min&amp;freemiumBanner=true&amp;hasTPAWorkerOnSite=false&amp;isHttps=true&amp;isInSeo=false&amp;isMultilingualEnabled=false&amp;isUrlMigrated=true&amp;isWixCodeOnPage=false&amp;isWixCodeOnSite=false&amp;language=en&amp;languageResolutionMethod=QueryParam&amp;metaSiteId=358e8db1-d3ee-4464-bded-5b0a56baf693&amp;module=thunderbolt-features&amp;originalLanguage=en&amp;pageId=46f789_72432079d4711a2b9d3f56cd0f751a94_203.json&amp;quickActionsMenuEnabled=false&amp;registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.9331.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.9331.0%22%7D%5D&amp;remoteWidgetStructureBuilderVersion=1.233.0&amp;siteId=06f27bcb-af47-4006-b8b8-c6e0875a5e4a&amp;siteRevision=205&amp;staticHTMLComponentUrl=https%3A%2F%2Fthuthuynt540-wixsite-com.filesusr.com%2F&amp;useSandboxInHTMLComp=true&amp;viewMode=desktop"
     id="features_masterPage">
 
-
-
-
   <link rel="preload" crossorigin="anonymous" as="fetch"
     href="https://siteassets.parastorage.com/pages/pages/thunderbolt?beckyExperiments=specs.thunderbolt.responsiveAbsoluteChildrenPosition%3Atrue%2Cspecs.thunderbolt.containersList%3Atrue%2Cspecs.thunderbolt.DatePickerPortal%3Atrue%2Cspecs.thunderbolt.SearchBoxSuggestionsFacelift%3Atrue%2Cspecs.thunderbolt.loadHighQualityImagesAboveFold%3Atrue%2Cspecs.thunderbolt.loadFirstNFonts%3A3%2Cspecs.thunderbolt.maskImageCSS%3Atrue%2Cspecs.thunderbolt.chat_landing_page%3Atrue&amp;contentType=application%2Fjson&amp;deviceType=Desktop&amp;dfCk=6&amp;dfVersion=1.1581.0&amp;excludedSafariOrIOS=false&amp;experiments=bv_remove_add_chat_viewer_fixer%2Cdm_fixStylableButtonProperties%2Cdm_fixVectorImageProperties%2Cdm_migrateToTextTheme&amp;externalBaseUrl=https%3A%2F%2Fthuthuynt540.wixsite.com%2Fmyresume&amp;fileId=917c7ad2.bundle.min&amp;freemiumBanner=true&amp;hasTPAWorkerOnSite=false&amp;isHttps=true&amp;isInSeo=false&amp;isMultilingualEnabled=false&amp;isUrlMigrated=true&amp;isWixCodeOnPage=false&amp;isWixCodeOnSite=false&amp;language=en&amp;languageResolutionMethod=QueryParam&amp;metaSiteId=358e8db1-d3ee-4464-bded-5b0a56baf693&amp;module=thunderbolt-features&amp;originalLanguage=en&amp;pageId=46f789_26c511e32c210cbf1e2c95df03383fd6_205.json&amp;quickActionsMenuEnabled=false&amp;registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.9331.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.9331.0%22%7D%5D&amp;remoteWidgetStructureBuilderVersion=1.233.0&amp;siteId=06f27bcb-af47-4006-b8b8-c6e0875a5e4a&amp;siteRevision=205&amp;staticHTMLComponentUrl=https%3A%2F%2Fthuthuynt540-wixsite-com.filesusr.com%2F&amp;useSandboxInHTMLComp=true&amp;viewMode=desktop"
     id="features_awvza">
-
-
-
 
   <!-- Initial CSS -->
   <style data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/main.d54c98d0.min.css">
@@ -508,17 +473,11 @@
   <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
 
-
-
-
-
-
   <!--pageHtmlEmbeds.head start-->
   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.head start"></script>
 
   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.head end"></script>
   <!--pageHtmlEmbeds.head end-->
-
 
   <!-- initCustomElements -->
   <meta name="wix-dynamic-custom-elements" content="DropDownMenu">
